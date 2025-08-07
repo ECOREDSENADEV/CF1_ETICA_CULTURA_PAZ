@@ -2,31 +2,119 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 64%
+    right: 56%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 24%
+    right: 71%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 35%
+    right: 14%
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
+
 .banner-principal .tarjeta
   background-position: left 50% !important
 
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 500px !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+  color: $color-sistema-texto !important
 
 .banner-interno__titulo__icono i
   color: $color-primario
-
+///////////CUSTOM BANNER PRINCIPAL E INTERNO/////////////
+.banner-interno__fondo
+  background-image: url("../assets/curso/banner_interno.png") !important
+.banner-principal .tarjeta
+  @media screen and (max-width: $bp-max-sm)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+  @media screen and (max-width: $bp-max-xs)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
 figcaption
   font-weight: normal
+
+
+.bg-color
+  &-1
+    background-color: #FAEED7
+  &-2
+    background-color: #DAE1E2
+  &-3
+    background-color: #F7F7F7
+  &-white
+    background-color: white !important
+    border: 1px solid $lightest-gray
+  &-secundario
+    background-color: $color-secundario !important
+  &-sintesis
+    background-color: #F6F6F6
+  
+// Full Width Background
+.bg-full-width, .bg-full-width-2
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+.bg-full-width
+  background-size: cover
+.bg-full-width-2
+  background-size: contain
+
+.bg-fondo
+  //&-1
+    background-image: url("../assets/curso/bg1.svg") !important
+    background-position: bottom
+    background-repeat: no-repeat
+    background-size: cover
+  //&-2
+    background-image: url("../assets/curso/bg2.svg") !important
+    background-position: bottom
+    background-repeat: no-repeat
+    background-size: cover
+
+// VariablesFFF
+$custom-card-border-radius: 10px
+$custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
+$custom-card-text-bg: #DAE1E2
+$custom-card-text-padding: 15px
+$custom-card-text-font-size: 14px
+$custom-card-img-height: 322px
+.custom-image-card
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: $custom-card-img-height
+    object-fit: cover
+
+.custom-image-card-2
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: 253px
+    object-fit: cover
