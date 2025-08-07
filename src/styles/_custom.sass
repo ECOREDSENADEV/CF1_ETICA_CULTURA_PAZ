@@ -50,7 +50,24 @@ figcaption
   &-2
     background-color: #DAE1E2
   &-3
-    background-color: #F7F7F7
+    background-color: #EFEAE8
+  &-4
+    background-color: #FAE2DE
+  &-5
+    background-color: #FCF0EE
+  &-5
+    background-color: #727997
+    h2, p
+      color: white !important
+    &:hover
+      background-color: #DEE4F0
+      h2, p
+        color: $color-sistema-texto !important
+  &-6
+    background-color: #F3B6AD
+    &:hover
+      background-color: #FAE2DE
+
   &-white
     background-color: white !important
     border: 1px solid $lightest-gray
@@ -73,8 +90,8 @@ figcaption
   background-size: contain
 
 .bg-fondo
-  //&-1
-    background-image: url("../assets/curso/bg1.svg") !important
+  &-1
+    background-image: url("../assets/curso/bg1.png") !important
     background-position: bottom
     background-repeat: no-repeat
     background-size: cover
@@ -110,7 +127,7 @@ $custom-card-img-height: 322px
   overflow: hidden
   box-shadow: $custom-card-shadow
   height: 100%
-  background-color: $custom-card-text-bg
+  background-color: #FAE2DE
   transition: transform 0.3s ease 
   cursor: pointer
   &:hover
@@ -118,3 +135,9 @@ $custom-card-img-height: 322px
   &__image
     height: 253px
     object-fit: cover
+
+.bloque-texto-f.color-secundario:before
+  background-color: #D2E1F1
+
+.linea-tiempo-e__item__header:before
+  top: 3px

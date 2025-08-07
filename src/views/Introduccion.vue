@@ -21,17 +21,17 @@
 
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-4.mb-4(data-aos="zoom-in-up")
-        .custom-image-card-2.h-100
+        .custom-image-card.h-100
           img.custom-image-card__image(src="@/assets/curso/intro/2.png" alt="")
           .custom-image-card__text.p-4
             p.mb-.text-center Reconocer la dignidad humana como valor inherente a toda persona, desde enfoques filosóficos, jurídicos y humanistas.
       .col-lg-4.mb-4(data-aos="zoom-in-down")
-        .custom-image-card-2.h-100
+        .custom-image-card.h-100
           img.custom-image-card__image(src="@/assets/curso/intro/3.png" alt="")
           .custom-image-card__text.p-4
             p.mb-0.text-center Comprender la importancia de los derechos humanos como base para una convivencia justa y equitativa.
       .col-lg-4.mb-4(data-aos="zoom-in-down")
-        .custom-image-card-2.h-100
+        .custom-image-card.h-100
           img.custom-image-card__image(src="@/assets/curso/intro/4.png" alt="")
           .custom-image-card__text.p-4
             p.mb-0.text-center Desarrollar habilidades socioemocionales como la empatía, la inteligencia emocional, la comunicación asertiva y la resolución pacífica de conflictos.
