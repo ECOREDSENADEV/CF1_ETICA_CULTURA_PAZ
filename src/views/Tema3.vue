@@ -21,7 +21,7 @@
         .bg-color-7.tarjeta.mb-5
           .px-4.px-md-5.py-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema3/1.svg", style="max-width: 209px").mx-auto
               .col-lg
                 p.mb-0 El autoconocimiento como herramienta para gestionar las metas propias e institucionales está ligado al sentido de vida que cada persona determina. Corresponde al propósito que cada ser humano encuentra o define para su vida, es completamente armonizable a la vocación, al carisma del quehacer o la disciplina que cada persona desempeña. Entender, establecer, determinar, definir su propio propósito de vida potencializa la posibilidad de reconocerse en tanto a sus propósitos, metas o sueños, y potencializa las probabilidades de reconocer bajo los mismos criterios a los demás.
@@ -37,20 +37,20 @@
     
         .bg-color-8.p-3(data-aos="fade-left")
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema3/3.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Con las decisiones y las acciones que adoptemos y realicemos configuramos un revelador sentido de vida. La vida nos interpela, nos cuestiona y nos desafía en cada instante de nuestra existencia para que le demos respuesta.
     
     p.mb-5 El sentido que le damos a nuestras acciones y planes permite orientarnos hacia entender la razón de nuestra existencia, para qué vivimos y cuál es el propósito, este último forma parte fundamental del proceso de crecimiento personal que cada ser humano debe explorar para diseñar su propio futuro.
 
-    .row.justify-content-center.mb-5
-      .col-lg-10
+    .row.justify-content-center
+      .col-xl-10
         .bg-color-9.tarjeta.mb-5
           .px-4.px-md-5.py-4.py-lg-0
             .row.align-items-center.position-relative
-              img.pst.d-none-d-lg-flex(src="@/assets/curso/tema3/6.svg", style="max-width: 85px").mx-auto
-              img.pst-2.d-none-d-lg-flex(src="@/assets/curso/tema3/7.svg", style="max-width: 120px").mx-auto
+              img.pst.d-none.d-lg-flex(src="@/assets/curso/tema3/6.svg", style="max-width: 85px").mx-auto
+              img.pst-2.d-none.d-lg-flex(src="@/assets/curso/tema3/7.svg", style="max-width: 120px").mx-auto
               .col-lg-auto.order-2
                 img(src="@/assets/curso/tema3/5.svg", style="max-width: 209px").mx-auto
               .col-lg.order-1.mb-3.mb-lg-0.p-4

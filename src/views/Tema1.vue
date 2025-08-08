@@ -27,7 +27,7 @@
         .bg-color-1.mb-5.tarjeta
           .p-4.p-md-5
             .row.justify-content-center.align-items-center
-              .col-lg-5
+              .col-lg-5.mb-3.mb-lg-0
                 figure
                   img(src="@/assets/curso/tema1/2.svg", data-aos="zoom-in")
               .col-lg-7
@@ -90,9 +90,9 @@
               figure(data-aos="fade-up")
                 img(src='@/assets/curso/tema1/5.png', alt='Texto que describa la imagen')
           .row(titulo="1948").align-items-center
-            .col-lg-9.mb-4.mb-lg-0
+            .col-lg-9.mb-4.mb-lg-0.order-2.order-lg-1
               p Después de la Segunda Guerra Mundial, la dignidad aparece como núcleo central en la Declaración Universal de los Derechos Humanos en 1948, aceptándola de la siguiente manera: “la libertad, la justicia y la paz en el mundo tienen por base el reconocimiento de la dignidad intrínseca […] de todos los miembros de la familia humana” (…) «La fe de las Naciones Unidas en la dignidad y el valor de la persona humana».
-            .col-lg-3
+            .col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0
               figure(data-aos="fade-down")
                 img(src='@/assets/curso/tema1/6.png', alt='Texto que describa la imagen')
           .row(titulo="1949 y 1977").align-items-center
@@ -105,7 +105,7 @@
     .bg-color-1.tarjeta.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/8.svg", style="max-width: 90px").mx-auto
           .col-lg
             p.mb-0 Es así como el concepto de Derechos Humanos se puede relacionar con la afirmación de la dignidad de la persona frente al Estado, pues, al reconocer a la persona como ser humano, sólo por el hecho de serlo, implica que se le reconozca como portadora de estos derechos.
@@ -141,20 +141,20 @@
         .bg-color-7.tarjeta.mb-5
           .px-4.px-md-5.py-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema1/12.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 Según lo anterior, toda persona es libre de elegir cómo quiere vivir, sin recibir, así como lo dice el tercer apartado, bajo un principio de integridad física y moral. Es decir, que nadie puede humillar ni atacar, simplemente por la forma en que ha decidido vivir.
     
     .row.align-items-center.mb-5
-      .col-lg-auto.order-2
+      .col-lg-auto.mb-3.mb-lg-0.order-2
         img(src="@/assets/curso/tema1/13.svg", style="max-width: 290px").mx-auto
       .col-lg.order-1.mb-3.mb-lg-0
         p La Corte Constitucional Colombiana, definió de esta forma a la Dignidad Humana, en la sentencia T 881 de 2002:
         p Una síntesis de la configuración jurisprudencial del referente o del contenido de la expresión “dignidad humana” como entidad normativa, puede presentarse de dos maneras:
         p.mb-0 A partir de su objeto concreto de protección y a partir de su funcionalidad normativa. Al tener como punto de vista el objeto de protección del enunciado normativo “dignidad humana”, la Sala ha identificado a lo largo de la jurisprudencia de la Corte, tres lineamientos claros y diferenciables: 
 
-    .row.mb-5
+    .row.mb-5.justify-content-center
       .col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-down")
         //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -198,7 +198,7 @@
     
     p.mb-5 Por otro lado, al tener como punto de vista la funcionalidad, del enunciado normativo “dignidad humana”, la Sala ha identificado tres lineamientos: 
 
-    .row.mb-5
+    .row.mb-5.justify-content-center
       .col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-up")
         //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones

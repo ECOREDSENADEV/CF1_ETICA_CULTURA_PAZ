@@ -26,6 +26,8 @@
 
 .banner-principal__row .banner-principal__img
   width: 500px !important
+  @media screen and (max-width: $bp-max-lg)
+    width: 400px !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: $color-sistema-texto !important
@@ -46,7 +48,7 @@ figcaption
 
 .bg-color
   &-1
-    background-color: #FAEED7
+    background-color: #FAEED7 !important
   &-2
     background-color: #DAE1E2
   &-3
@@ -82,6 +84,22 @@ figcaption
     background-color: #EAB03C
   &-14
     background-color: #E8E8E8
+  &-15
+     background-color: #F6DFB0
+  &-16
+    background-color: #D2E1F1 !important
+  &-17
+    background-color: #F3B6AD
+    display: inline-block
+  &-18
+    background-color: #F3B6AD
+  &-19
+    background-color: #E4BC6E
+    display: inline-block
+  &-20
+    background-color: #ffffffcc
+  &-21
+    background-color: #ECEFF0	
 
 
   &-white
@@ -116,6 +134,9 @@ figcaption
     background-position: bottom
     background-repeat: no-repeat
     background-size: cover
+  &-slider
+    background-image: url("../assets/curso/bg-slider.png") !important
+    background-position: bottom
 
 .pst
   position: absolute
@@ -181,3 +202,75 @@ $custom-card-img-height: 322px
   .acordion__titulo 
     h3
       color: $color-sistema-texto !important
+
+.barra-avance__boton--regresar span
+  color: white !important
+
+
+//////////////CUSTOM TABS-A/////////////
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #F36B35
+  color: #fff
+.tabs-a__tab
+  background-color: #4C6D74
+  color: white
+.tarjeta.color-acento-botones--borde
+  background-color: #B6C4C7
+  border: solid 4px #B6C4C7
+//////////CUSTOM BOTONES SLYDER-F/////////
+.slyder-f__btn
+  height: 35px
+  width: 35px
+  max-width: 35px
+  background-color: $color-acento-botones
+  border-radius: 50%
+  padding: 0 !important
+  margin: 0 auto
+  .fa-chevron-left
+    font-size: 20px
+  .fa-chevron-right
+    font-size: 20px
+  
+.slyder-f
+    align-items: center
+
+    .slyder-f__main
+      width: 70%
+
+      @media (min-width: 769px)
+        width: 80%
+////////SOMBRA CAJON//////////
+.box-shadow
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px;
+  border-radius: 8px; /* Opcional, para bordes redondeados */
+
+///////////// CUSTOM LINEA DE TIEMPO D
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #F3B6AD !important
+      color: $color-sistema-texto
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #FAE2DE
+
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #DAE1E2
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #adb8c2 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #DAE1E2
+//////////////CUSTON SLYDER-A////////
+.slyder-a__bullets__item 
+  background-color: #B8BEBD
+  border: #B8BEBD
+.slyder-a__bullets__item--active
+  background-color: #4C6D74
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: #F36B35

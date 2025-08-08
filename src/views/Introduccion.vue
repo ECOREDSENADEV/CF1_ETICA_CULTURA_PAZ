@@ -9,9 +9,9 @@
       h1 Introducción
     
     .bg-color-1.mb-5.tarjeta
-      .px-4.px-md-5.py-4.py-lg-0
+      .px-4.px-md-5.py-4.py-xl-0
         .row.align-items-center
-          .col-lg-auto.order-2
+          .col-lg-auto.mb-3.mb-lg-0.order-2
             img(src="@/assets/curso/intro/1.svg", style="max-width: 220px").mx-auto
           .col-lg.order-1.mb-3.mb-lg-0
             p El componente formativo “Ser Individuo” hace parte del programa Ética y Cultura de Paz, y tiene como propósito fundamental fortalecer el desarrollo personal y social desde una perspectiva ética y de convivencia pacífica.
