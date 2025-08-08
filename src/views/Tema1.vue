@@ -138,7 +138,7 @@
     
     .row.justify-content-center
       .col-lg-10
-        .bg-color-5.tarjeta.mb-5
+        .bg-color-7.tarjeta.mb-5
           .px-4.px-md-5.py-4
             .row.align-items-center
               .col-lg-auto
